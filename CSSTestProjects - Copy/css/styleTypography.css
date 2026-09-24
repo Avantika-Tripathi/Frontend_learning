@@ -1,0 +1,27 @@
+
+
+/* typography is the way that text is arranged and presented */
+
+body{
+    padding:10%;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+    /*  input,button{
+        font:inherit;
+     } */
+
+    p{
+        text-decoration: underline;
+        text-transform:capitalize;
+        text-align:justify;
+        text-indent:2em ; 
+        line-height: 1;
+        letter-spacing:0.1em;
+        word-spacing:0.5em;
+        font-weight:400;
+       /*  font-style: italic; */
+
+    }
+     

@@ -1,0 +1,28 @@
+
+body{
+   min-height: 100vh;
+   background-color:peru;
+    
+}
+
+
+header{
+    width: 70%;
+}
+
+h1{
+    border:3px dashed red;
+    width: 50%;
+    font-size: 3rems;
+    padding: 0.5em;
+}
+main{
+    width :20%;
+    background-color: aquamarine;
+    font-size: 2rems;
+}
+
+p{
+    font-size: 2rem ;
+    width: 40ch;
+}

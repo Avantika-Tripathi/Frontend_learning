@@ -1,0 +1,38 @@
+
+*{
+    font-family:monospace;
+    border: 1px solid red;
+}
+body{
+    font-family: 20px;
+    border: 3px solid black;
+}
+
+h1, h2, h3{
+    color:blue;
+}
+
+p {
+    color: purple;
+}
+p {
+    color: red;
+}
+
+p span{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.highlight{
+    text-transform: uppercase;
+    background-color: silver;
+}
+
+.gray{
+    color:gray;
+}
+
+#second{
+    font-style: italic;
+}

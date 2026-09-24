@@ -1,0 +1,40 @@
+ *{ margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+  }
+ 
+ .container{
+    border: 2px dashed red;
+    border:4px double pink;
+    border-top: 3px dotted;
+    border-right:4px solid;
+    border-right-width:5px;
+    border-left-style:ridge;
+    border-bottom-color: blue ;
+    font-size: 1.5rem;
+    margin:1.5em;
+    /* margin-top: 1.5em;
+    margin-right: 2.5em;
+    margin-bottom: 3.5em;
+    margin-left: 1.5em; */
+    padding: 1.5em;
+    outline: 5px solid purple;
+    outline-offset:5px;
+    outline: 5px solid green;
+    outline-offset: -20px;
+   /*  box-shadow:
+        0 0 0 4px red,   /* first outline *//*
+        0 0 0 -16px blue;  /* second outline */
+}
+
+.circle{
+    margin: 3rem auto;
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    border: 3px solid purple;
+    border-radius:50px ;
+    outline: 2px solid red;
+    outline-offset: 0.25em;
+}

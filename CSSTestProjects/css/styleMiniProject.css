@@ -1,0 +1,58 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 1rem;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+nav{
+    border: 4px double rgba(29, 4, 98, 0.944);
+    border-radius: 2rem;
+    margin:0 auto 1rem;
+    max-width: 500px;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+h2{
+    padding:1rem;
+    background-color: cadetblue;
+    border-radius: 2rem 2rem 0 0;
+
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    border-top: 1px dashed rgba(29, 4, 98, 0.944);
+}
+
+li a{
+    display: block;
+}
+
+li a,
+li a:visited {
+    text-decoration: none;
+    color: rgba(29, 4, 98, 0.863);
+
+}
+
+li a:hover,
+li a:focus{
+    background: rgba(29, 4, 98, 0.552);
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
+
+
